@@ -11,28 +11,37 @@ namespace WebApiAutores.Controllers
     [Route("api/autores")]
     public class AutoresController : Controller
     {
+        private readonly IHttpContextAccessor httpContextAccessor;
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
 
-        public AutoresController(ApplicationDbContext context, IMapper mapper)
+        public AutoresController(ApplicationDbContext context, IMapper mapper, IHttpContextAccessor httpContextAccessor)
         {
             this.context = context;
             this.mapper = mapper;
+            this.httpContextAccessor = httpContextAccessor;
         }
 
-        //[HttpGet]
-        //public async Task<ActionResult<List<Autor>>> Get()
-        //{
-        //    return await context.Autores.Include(x => x.Libros).ToListAsync();
-        //}
+        [HttpGet("{id:int}", Name = "obtenerAutor")]
+        public async Task<ActionResult<AutorResponseDTOLibros>> Get(int id)
+        {
+            var autor = await context.Autores
+                .Include(autor => autor.AutoresLibros)
+                .ThenInclude(autorLibro => autorLibro.Libro)
+                .FirstOrDefaultAsync(autor => autor.Id == id);
+
+            if (autor is null) return NoContent();
+            return Ok(mapper.Map<AutorResponseDTOLibros>(autor));
+        }
 
         [HttpPost]
-        public async Task<ActionResult> Post(AutorRequestDTO autorDto)
+        public async Task<ActionResult> Post(AutorRequestDTO autorRequestDto)
         {
-            var autor = mapper.Map<Autor>(autorDto);
+            var autor = mapper.Map<Autor>(autorRequestDto);
             context.Add(autor);
             await context.SaveChangesAsync();
-            return Ok();
+            var autorDto = mapper.Map<AutorResponseDTO>(autor);
+            return CreatedAtRoute("obtenerAutor", new { id = autor.Id }, autorDto);
         }
 
         [HttpPut("{id:int}")]
@@ -67,6 +76,21 @@ namespace WebApiAutores.Controllers
         {
             var autores = await context.Autores.Where(autor => autor.Nombre.Contains(nombre)).ToListAsync();
             return mapper.Map<List<AutorResponseDTO>>(autores);
+        }
+
+        [HttpGet("ejemplo")]
+        public string Ejemplo()
+        {
+            httpContextAccessor.HttpContext.Session.SetString("nombre", "Gio");
+            var nombre = httpContextAccessor.HttpContext.Session.GetString("nombre");
+            return nombre;
+        }
+
+        [HttpGet("ejemplo2")]
+        public string Ejemplo2()
+        {
+            var nombre = httpContextAccessor.HttpContext.Session.GetString("nombre");
+            return nombre;
         }
     }
 }

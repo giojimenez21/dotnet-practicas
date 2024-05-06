@@ -1,0 +1,22 @@
+﻿@using LoginMVCNet8.Models.Seguridad
+@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row">
+    <div class="col-12 col-md-6 offset-md-3">
+        <div class="mb-3">
+            <form asp-action="Login">
+                <label class="form-label" asp-for="Email"></label>
+                <input type="email" class="form-control" asp-for="Email" required>
+
+                <label class="form-label" asp-for="Password"></label>
+                <input type="password" class="form-control" asp-for="Password" required>
+
+                <button class="btn btn-primary">Entrar</button>
+            </form>
+        </div>
+    </div>
+</div>

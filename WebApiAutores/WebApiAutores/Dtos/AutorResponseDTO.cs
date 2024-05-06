@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebApiAutores.Entidades;
 
 namespace WebApiAutores.Dtos
 {
