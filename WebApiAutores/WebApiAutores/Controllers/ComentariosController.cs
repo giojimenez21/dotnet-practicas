@@ -35,6 +35,24 @@ namespace WebApiAutores.Controllers
             return Ok();
         }
 
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> Put(int libroId, int id, ComentarioRequestDTO comentarioDTO)
+        {
+            var existeLibro = await context.Libros.AnyAsync(libro => libro.Id == libroId);
+            if (!existeLibro)
+            {
+                return NotFound();
+            }
+
+            var comentario = mapper.Map<Comentario>(comentarioDTO);
+            comentario.LibroId = libroId;
+            comentario.Id = id;
+            context.Update(comentario);
+            await context.SaveChangesAsync();
+            return NoContent();
+        }
+
+
         [HttpGet]
         public async Task<ActionResult<List<ComentarioResponseDTO>>> Get(int libroId)
         {

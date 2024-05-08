@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApiAutores.Dtos;
 using WebApiAutores.Entidades;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace WebApiAutores.Controllers
 {
@@ -12,14 +15,16 @@ namespace WebApiAutores.Controllers
     public class AutoresController : Controller
     {
         private readonly IHttpContextAccessor httpContextAccessor;
+        private readonly IConfiguration configuration;
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
 
-        public AutoresController(ApplicationDbContext context, IMapper mapper, IHttpContextAccessor httpContextAccessor)
+        public AutoresController(ApplicationDbContext context, IMapper mapper, IHttpContextAccessor httpContextAccessor, IConfiguration configuration)
         {
             this.context = context;
             this.mapper = mapper;
             this.httpContextAccessor = httpContextAccessor;
+            this.configuration = configuration;
         }
 
         [HttpGet("{id:int}", Name = "obtenerAutor")]
@@ -45,16 +50,13 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Autor autor)
+        public async Task<ActionResult> Put(int id, [FromBody] AutorRequestDTO autorDTO)
         {
-            if (autor.Id != id)
-            {
-                return BadRequest("El id del autor no coincide con el id del url");
-            }
-
+            var autor = mapper.Map<Autor>(autorDTO);
+            autor.Id = id;
             context.Update(autor);
             await context.SaveChangesAsync();
-            return Ok();
+            return NoContent();
         }
 
         [HttpDelete("{id:int}")]
@@ -91,6 +93,20 @@ namespace WebApiAutores.Controllers
         {
             var nombre = httpContextAccessor.HttpContext.Session.GetString("nombre");
             return nombre;
+        }
+
+        [HttpGet("todosAutores")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        public async Task<ActionResult<List<AutorResponseDTO>>> GetAutores()
+        {
+            var autores = await context.Autores.ToListAsync();
+            return mapper.Map<List<AutorResponseDTO>>(autores);
+        }
+
+        [HttpGet("configuraciones")]
+        public ActionResult<string> ObtenerConfiguracion()
+        {
+            return configuration["connectionStrings:defaultConnection"];
         }
     }
 }
