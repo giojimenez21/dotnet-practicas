@@ -12,6 +12,7 @@ namespace WebApiAutores.Controllers
 {
     [ApiController]
     [Route("api/autores")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class AutoresController : Controller
     {
         private readonly IHttpContextAccessor httpContextAccessor;
@@ -96,7 +97,6 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpGet("todosAutores")]
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult<List<AutorResponseDTO>>> GetAutores()
         {
             var autores = await context.Autores.ToListAsync();

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|d:\\desktop\\codes\\dotnet-practicas\\loginmvcnet8\\loginmvcnet8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|solutionrelative:loginmvcnet8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|d:\\desktop\\codes\\dotnet-practicas\\loginmvcnet8\\loginmvcnet8\\controllers\\seguridadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|solutionrelative:loginmvcnet8\\controllers\\seguridadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|d:\\desktop\\codes\\dotnet-practicas\\loginmvcnet8\\loginmvcnet8\\models\\seguridad\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|solutionrelative:loginmvcnet8\\models\\seguridad\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|d:\\desktop\\codes\\dotnet-practicas\\loginmvcnet8\\loginmvcnet8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|solutionrelative:loginmvcnet8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|d:\\desktop\\codes\\dotnet-practicas\\loginmvcnet8\\loginmvcnet8\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{14237FC1-F733-4575-B65D-387733B41F29}|LoginMVCNet8\\LoginMVCNet8.csproj|solutionrelative:loginmvcnet8\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,37 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "LoginMVCNet8\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "LoginMVCNet8\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T02:06:34.451Z",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LoginMVCNet8\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LoginMVCNet8\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAnwDsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:35:07.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\appsettings.json",
-              "RelativeDocumentMoniker": "LoginMVCNet8\\appsettings.json",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\appsettings.json",
-              "RelativeToolTip": "LoginMVCNet8\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-06T02:00:00.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Models\\Seguridad\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "LoginMVCNet8\\Models\\Seguridad\\LoginViewModel.cs",
@@ -81,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "LoginMVCNet8\\Views\\Shared\\_Layout.cshtml",
@@ -94,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Views\\Seguridad\\Index.cshtml",
               "RelativeDocumentMoniker": "LoginMVCNet8\\Views\\Seguridad\\Index.cshtml",
@@ -107,26 +90,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Program.cs",
               "RelativeDocumentMoniker": "LoginMVCNet8\\Program.cs",
               "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Program.cs",
               "RelativeToolTip": "LoginMVCNet8\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T01:25:21.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SeguridadController.cs",
               "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Controllers\\SeguridadController.cs",
               "RelativeDocumentMoniker": "LoginMVCNet8\\Controllers\\SeguridadController.cs",
               "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\LoginMVCNet8\\LoginMVCNet8\\Controllers\\SeguridadController.cs",
               "RelativeToolTip": "LoginMVCNet8\\Controllers\\SeguridadController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T01:25:18.385Z",
               "EditorCaption": ""
