@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Text.Json.Serialization;
 using WebApiAutores;
@@ -16,6 +17,10 @@ builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.Re
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddEndpointsApiExplorer();
+
+//Limpia el mapeo de los claims
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
 builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -61,12 +66,26 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("EsAdmin", politic => politic.RequireClaim("esAdmin"));
+});
+
+builder.Services.AddDataProtection();
+
 //Configura identity para poderlo usar con la base
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-
+//Configuracion de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+    });
+});
 
 //Configuracion de sesion
 builder.Services.AddDistributedMemoryCache();
@@ -92,4 +111,7 @@ app.MapControllers();
 
 //Habilita el uso de la session
 app.UseSession();
+
+app.UseCors();
+
 app.Run();

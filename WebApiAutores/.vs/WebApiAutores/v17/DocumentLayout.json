@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +15,8 @@
       "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\dtos\\credencialesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\dtos\\credencialesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|d:\\desktop\\codes\\dotnet-practicas\\webapiautores\\webapiautores\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApiAutores\\appsettings.json",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\appsettings.json",
-              "RelativeToolTip": "WebApiAutores\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-09T04:33:35.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AutoresController.cs",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\AutoresController.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\Controllers\\AutoresController.cs",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\AutoresController.cs",
-              "RelativeToolTip": "WebApiAutores\\Controllers\\AutoresController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T02:35:29.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LibrosController.cs",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\LibrosController.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\Controllers\\LibrosController.cs",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\LibrosController.cs",
-              "RelativeToolTip": "WebApiAutores\\Controllers\\LibrosController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAkwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T01:58:04.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebApiAutores\\appsettings.Development.json",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\appsettings.Development.json",
-              "RelativeToolTip": "WebApiAutores\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-08T06:15:04.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CredencialesUsuario.cs",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Dtos\\CredencialesUsuario.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\Dtos\\CredencialesUsuario.cs",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Dtos\\CredencialesUsuario.cs",
-              "RelativeToolTip": "WebApiAutores\\Dtos\\CredencialesUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T06:06:19.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CuentasController.cs",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\CuentasController.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\Controllers\\CuentasController.cs",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\CuentasController.cs",
-              "RelativeToolTip": "WebApiAutores\\Controllers\\CuentasController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAgwD8AAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T06:04:12.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Program.cs",
               "RelativeDocumentMoniker": "WebApiAutores\\Program.cs",
               "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Program.cs",
               "RelativeToolTip": "WebApiAutores\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAwAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T05:32:49.218Z",
+              "WhenOpened": "2024-05-14T04:49:36.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebApiAutores\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "DocumentIndex": 3,
+              "Title": "AdminDTO.cs",
+              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Dtos\\AdminDTO.cs",
+              "RelativeDocumentMoniker": "WebApiAutores\\Dtos\\AdminDTO.cs",
+              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Dtos\\AdminDTO.cs",
+              "RelativeToolTip": "WebApiAutores\\Dtos\\AdminDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T05:31:28.176Z"
+              "WhenOpened": "2024-05-14T04:41:14.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CuentasController.cs",
+              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\CuentasController.cs",
+              "RelativeDocumentMoniker": "WebApiAutores\\Controllers\\CuentasController.cs",
+              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\CuentasController.cs",
+              "RelativeToolTip": "WebApiAutores\\Controllers\\CuentasController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwDIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T04:40:22.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "WebApiAutores\\Controllers\\AutoresController.cs",
+              "ToolTip": "D:\\Desktop\\codes\\dotnet-practicas\\WebApiAutores\\WebApiAutores\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "WebApiAutores\\Controllers\\AutoresController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T04:25:49.232Z",
+              "EditorCaption": ""
             }
           ]
         }
