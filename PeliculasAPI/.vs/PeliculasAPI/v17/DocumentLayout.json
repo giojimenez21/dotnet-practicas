@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\interfaces\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\interfaces\\iactorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\services\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\services\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\dtos\\actorcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\actorcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\interfaces\\igenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\interfaces\\igenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IActorService.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Interfaces\\IActorService.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Interfaces\\IActorService.cs",
+              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Interfaces\\IActorService.cs",
+              "RelativeToolTip": "PeliculasAPI\\Interfaces\\IActorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:02:48.223Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActorCreate.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\ActorCreate.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Dtos\\ActorCreate.cs",
+              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\ActorCreate.cs",
+              "RelativeToolTip": "PeliculasAPI\\Dtos\\ActorCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:10:20.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:05:45.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenderService.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Interfaces\\IGenderService.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Interfaces\\IGenderService.cs",
+              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Interfaces\\IGenderService.cs",
+              "RelativeToolTip": "PeliculasAPI\\Interfaces\\IGenderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:04:34.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActorService.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\ActorService.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Services\\ActorService.cs",
+              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\ActorService.cs",
+              "RelativeToolTip": "PeliculasAPI\\Services\\ActorService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:04:19.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActorsController.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActorsController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\ActorsController.cs",
+              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActorsController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\ActorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T05:01:39.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

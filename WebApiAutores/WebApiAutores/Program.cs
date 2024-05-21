@@ -8,6 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Text.Json.Serialization;
 using WebApiAutores;
+using WebApiAutores.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -72,6 +73,7 @@ builder.Services.AddAuthorization(options =>
 });
 
 builder.Services.AddDataProtection();
+builder.Services.AddTransient<HashService>();
 
 //Configura identity para poderlo usar con la base
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()

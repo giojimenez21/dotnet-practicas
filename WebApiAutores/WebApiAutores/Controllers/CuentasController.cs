@@ -8,6 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using WebApiAutores.Dtos;
+using WebApiAutores.Services;
 
 namespace WebApiAutores.Controllers
 {
@@ -18,13 +19,15 @@ namespace WebApiAutores.Controllers
         private readonly UserManager<IdentityUser> userManager;
         private readonly IConfiguration configuration;
         private readonly SignInManager<IdentityUser> signInManager;
+        private readonly HashService hashService;
         private readonly IDataProtector dataProtector;
 
-        public CuentasController(UserManager<IdentityUser> userManager, IConfiguration configuration, SignInManager<IdentityUser> signInManager, IDataProtectionProvider dataProtectionProvider)
+        public CuentasController(UserManager<IdentityUser> userManager, IConfiguration configuration, SignInManager<IdentityUser> signInManager, IDataProtectionProvider dataProtectionProvider, HashService hashService)
         {
             this.userManager = userManager;
             this.configuration = configuration;
             this.signInManager = signInManager;
+            this.hashService = hashService;
             dataProtector = dataProtectionProvider.CreateProtector("valordeejemplo");
         }
 
@@ -143,6 +146,19 @@ namespace WebApiAutores.Controllers
             var usuario = await userManager.FindByEmailAsync(adminDTO.Email);
             await userManager.RemoveClaimAsync(usuario, new Claim("esAdmin", "1"));
             return NoContent();
+        }
+
+        [HttpGet("{textoPlano}")]
+        public ActionResult RealizarHash(string textoPlano)
+        {
+            var resultado1 = hashService.Hash(textoPlano);
+            var resultado2 = hashService.Hash(textoPlano);
+            return Ok(new
+            {
+                resultado1,
+                resultado2,
+                textoPlano
+            });
         }
     }
 }
