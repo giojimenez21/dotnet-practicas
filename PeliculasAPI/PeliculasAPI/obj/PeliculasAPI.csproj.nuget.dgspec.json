@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.20.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.5, )"

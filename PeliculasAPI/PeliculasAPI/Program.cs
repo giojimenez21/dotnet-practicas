@@ -23,6 +23,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 
 //List of services 
 builder.Services.AddTransient<IGenderService, GenderService>();
+builder.Services.AddTransient<IActorService, ActorService>();
+builder.Services.AddTransient<IFileService, FileService>();
 
 var app = builder.Build();
 

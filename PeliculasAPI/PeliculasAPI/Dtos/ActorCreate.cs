@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PeliculasAPI.Validations;
+using System.ComponentModel.DataAnnotations;
 
 namespace PeliculasAPI.Dtos
 {
@@ -8,6 +9,9 @@ namespace PeliculasAPI.Dtos
         [StringLength(120)]
         public string Name { get; set; }
         public DateTime BirthDay { get; set; }
-        public string Picture { get; set; }
+
+        [SizeFileValidation(MaxSize: 4)]
+        [TypeFileValidation(Types: ["image/jpeg", "image/png"])]
+        public IFormFile Picture { get; set; }
     }
 }
