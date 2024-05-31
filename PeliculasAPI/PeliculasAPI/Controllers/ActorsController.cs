@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.Mvc;
 using PeliculasAPI.Dtos;
 using PeliculasAPI.Interfaces;
 using PeliculasAPI.Services;
@@ -7,9 +9,10 @@ namespace PeliculasAPI.Controllers
 {
     [ApiController]
     [Route("api/actors")]
-    public class ActorsController(IActorService actorService) : ControllerBase
+    public class ActorsController(IActorService actorService, IFileService fileService) : ControllerBase
     {
         private readonly IActorService actorService = actorService;
+        public readonly IFileService fileService = fileService;
 
         [HttpGet]
         public async Task<ActionResult<List<ActorDto>>> GetAllActors()
@@ -34,7 +37,7 @@ namespace PeliculasAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateActor(int id, [FromBody] ActorCreate actorToUpdate)
+        public async Task<ActionResult> UpdateActor(int id, [FromForm] ActorCreate actorToUpdate)
         {
             await actorService.UpdateActorById(id, actorToUpdate);
             return NoContent();
@@ -45,6 +48,13 @@ namespace PeliculasAPI.Controllers
         public async Task<ActionResult> DeleteActor(int id)
         {
             await actorService.DeleteActorById(id);
+            return NoContent();
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<ActionResult> UpdatePartialActor(int id, [FromBody] JsonPatchDocument<ActorPatchDTO> actorDocument)
+        {
+            await actorService.UpdatePartialActor(id, actorDocument);
             return NoContent();
         }
     }

@@ -1,4 +1,5 @@
-﻿using PeliculasAPI.Dtos;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using PeliculasAPI.Dtos;
 
 namespace PeliculasAPI.Interfaces
 {
@@ -8,6 +9,7 @@ namespace PeliculasAPI.Interfaces
         public Task<ActorDto> GetActorById(int id);
         public Task<ActorDto> CreateActor(ActorCreate actorCreate);
         public Task UpdateActorById(int id, ActorCreate actorToUpdate);
-        public Task DeleteActorById(int id);   
+        public Task DeleteActorById(int id);
+        public Task UpdatePartialActor(int id, JsonPatchDocument<ActorPatchDTO> actorDocument);
     }
 }

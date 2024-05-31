@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj": {}
+    "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj": {
+    "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
+        "projectUniqueName": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
         "projectName": "PeliculasAPI",
-        "projectPath": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
+        "projectPath": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\PeliculasAPI.csproj",
         "packagesPath": "C:\\Users\\gioji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\obj\\",
+        "outputPath": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gioji\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,14 @@
             "Azure.Storage.Blobs": {
               "target": "Package",
               "version": "[12.20.0, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

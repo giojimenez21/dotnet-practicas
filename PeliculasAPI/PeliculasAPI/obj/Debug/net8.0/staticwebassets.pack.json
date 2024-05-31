@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actors\\05447e87-2ff6-444f-94d9-a760d2f0de38.png",
+      "PackagePath": "staticwebassets\\actors\\05447e87-2ff6-444f-94d9-a760d2f0de38.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actors\\05ab478e-c69b-45f4-bd07-85d04665ffb7.png",
+      "PackagePath": "staticwebassets\\actors\\05ab478e-c69b-45f4-bd07-85d04665ffb7.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actors\\633632d4-76c0-46bf-b1b8-b63088eec2d7.png",
+      "PackagePath": "staticwebassets\\actors\\633632d4-76c0-46bf-b1b8-b63088eec2d7.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actors\\d20c5dc8-d0b3-47f0-b01f-4eff6f7217c1.png",
+      "PackagePath": "staticwebassets\\actors\\d20c5dc8-d0b3-47f0-b01f-4eff6f7217c1.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\actors\\dff1ba8d-cbf7-4386-81fc-b4168ab9d40f.png",
+      "PackagePath": "staticwebassets\\actors\\dff1ba8d-cbf7-4386-81fc-b4168ab9d40f.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\movies\\311cd404-a2ce-4618-bd04-b4b1f58650e4.png",
+      "PackagePath": "staticwebassets\\movies\\311cd404-a2ce-4618-bd04-b4b1f58650e4.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\movies\\4bb94797-31fc-42e4-bdf4-1c6279ee9182.png",
+      "PackagePath": "staticwebassets\\movies\\4bb94797-31fc-42e4-bdf4-1c6279ee9182.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\movies\\65314ef5-44f6-45fa-9396-b45c29ffbb30.png",
+      "PackagePath": "staticwebassets\\movies\\65314ef5-44f6-45fa-9396-b45c29ffbb30.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\movies\\99c15341-4d7b-4e86-89ae-8c7ce7a4e09e.png",
+      "PackagePath": "staticwebassets\\movies\\99c15341-4d7b-4e86-89ae-8c7ce7a4e09e.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\movies\\ee3db95d-78be-4188-98e2-e9cf7506a1bc.png",
+      "PackagePath": "staticwebassets\\movies\\ee3db95d-78be-4188-98e2-e9cf7506a1bc.png"
+    },
+    {
+      "Id": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\wwwroot\\movies\\f0d3dfa9-1b1e-408b-a645-ef53320613df.png",
+      "PackagePath": "staticwebassets\\movies\\f0d3dfa9-1b1e-408b-a645-ef53320613df.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PeliculasAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PeliculasAPI.props",
+      "PackagePath": "build\\PeliculasAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PeliculasAPI.props",
+      "PackagePath": "buildMultiTargeting\\PeliculasAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PeliculasAPI.props",
+      "PackagePath": "buildTransitive\\PeliculasAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

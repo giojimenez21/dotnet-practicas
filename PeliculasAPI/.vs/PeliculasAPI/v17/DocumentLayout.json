@@ -1,54 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\dtos\\moviepatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\moviepatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\interfaces\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\dtos\\moviecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\moviecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\dtos\\filetoupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\filetoupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\helpers\\typebinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\helpers\\typebinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\dtos\\actorcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\dtos\\actorcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\controllers\\gendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\gendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\validations\\typefilevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\validations\\typefilevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\validations\\sizefilevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\validations\\sizefilevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\services\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\services\\actorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\onedrive\\desktop\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\peliculasapi\\peliculasapi\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5523801A-781C-4768-BF76-E710DE646C5E}|PeliculasAPI\\PeliculasAPI.csproj|solutionrelative:peliculasapi\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,156 +40,78 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Program.cs",
               "RelativeDocumentMoniker": "PeliculasAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Program.cs",
               "RelativeToolTip": "PeliculasAPI\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T06:03:22.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PeliculasAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\appsettings.Development.json",
-              "RelativeToolTip": "PeliculasAPI\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-22T05:55:10.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Services\\FileService.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\FileService.cs",
-              "RelativeToolTip": "PeliculasAPI\\Services\\FileService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:54:37.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileToUpload.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\FileToUpload.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Dtos\\FileToUpload.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\FileToUpload.cs",
-              "RelativeToolTip": "PeliculasAPI\\Dtos\\FileToUpload.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:51:41.258Z",
+              "WhenOpened": "2024-05-29T04:51:55.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IFileService.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Interfaces\\IFileService.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Interfaces\\IFileService.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Interfaces\\IFileService.cs",
-              "RelativeToolTip": "PeliculasAPI\\Interfaces\\IFileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Title": "MovieCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\MovieCreateDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Dtos\\MovieCreateDTO.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\MovieCreateDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\Dtos\\MovieCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:49:38.07Z",
+              "WhenOpened": "2024-05-29T04:39:53.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TypeFileValidation.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Validations\\TypeFileValidation.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Validations\\TypeFileValidation.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Validations\\TypeFileValidation.cs",
-              "RelativeToolTip": "PeliculasAPI\\Validations\\TypeFileValidation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "DocumentIndex": 2,
+              "Title": "MoviePatchDTO.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\MoviePatchDTO.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Dtos\\MoviePatchDTO.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\MoviePatchDTO.cs",
+              "RelativeToolTip": "PeliculasAPI\\Dtos\\MoviePatchDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:38:03.474Z",
+              "WhenOpened": "2024-05-29T04:23:36.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SizeFileValidation.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Validations\\SizeFileValidation.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Validations\\SizeFileValidation.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Validations\\SizeFileValidation.cs",
-              "RelativeToolTip": "PeliculasAPI\\Validations\\SizeFileValidation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "DocumentIndex": 4,
+              "Title": "TypeBinder.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Helpers\\TypeBinder.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Helpers\\TypeBinder.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Helpers\\TypeBinder.cs",
+              "RelativeToolTip": "PeliculasAPI\\Helpers\\TypeBinder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T05:30:00.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GenderController.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenderController.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\GenderController.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\GenderController.cs",
-              "RelativeToolTip": "PeliculasAPI\\Controllers\\GenderController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwDAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T04:26:14.762Z",
+              "WhenOpened": "2024-05-29T04:16:25.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ActorCreate.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\ActorCreate.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Dtos\\ActorCreate.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Dtos\\ActorCreate.cs",
-              "RelativeToolTip": "PeliculasAPI\\Dtos\\ActorCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\MovieService.cs",
+              "RelativeToolTip": "PeliculasAPI\\Services\\MovieService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAjwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T05:10:20.929Z",
+              "WhenOpened": "2024-05-29T04:13:41.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AutoMapperProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
-              "RelativeToolTip": "PeliculasAPI\\Helpers\\AutoMapperProfiles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "DocumentIndex": 1,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "PeliculasAPI\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T05:05:45.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ActorService.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\ActorService.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Services\\ActorService.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Services\\ActorService.cs",
-              "RelativeToolTip": "PeliculasAPI\\Services\\ActorService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAnwBsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T05:04:19.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ActorsController.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActorsController.cs",
-              "RelativeDocumentMoniker": "PeliculasAPI\\Controllers\\ActorsController.cs",
-              "ToolTip": "C:\\Users\\gioji\\OneDrive\\Desktop\\codes\\dotnet-practicas\\PeliculasAPI\\PeliculasAPI\\Controllers\\ActorsController.cs",
-              "RelativeToolTip": "PeliculasAPI\\Controllers\\ActorsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T05:01:39.892Z",
+              "WhenOpened": "2024-05-29T04:12:46.254Z",
               "EditorCaption": ""
             }
           ]

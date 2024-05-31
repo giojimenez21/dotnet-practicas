@@ -5,10 +5,10 @@ using PeliculasAPI.Interfaces;
 
 namespace PeliculasAPI.Services
 {
-    public class FileService : IFileService
+    public class FileAzureService : IFileService
     {
         public readonly string connectionString;
-        public FileService(IConfiguration configuration)
+        public FileAzureService(IConfiguration configuration)
         {
             connectionString = configuration.GetConnectionString("AzureStorage");
         }
@@ -44,7 +44,7 @@ namespace PeliculasAPI.Services
             {
                 HttpHeaders = blobHttpHeader
             };
-            await blob.UploadAsync(new BinaryData(file.Content), blobUploadOptions));
+            await blob.UploadAsync(new BinaryData(file.Content), blobUploadOptions);
             return blob.Uri.ToString();
         }
     }
