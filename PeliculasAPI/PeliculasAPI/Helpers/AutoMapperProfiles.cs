@@ -20,7 +20,41 @@ namespace PeliculasAPI.Helpers
                 .ForMember(x => x.MovieGenders, options => options.MapFrom(MapMoviesGenders))
                 .ForMember(x => x.MoviesActors, options => options.MapFrom(MapMoviesActors));
             CreateMap<MoviePatchDTO, Movie>().ReverseMap();
+            CreateMap<Movie, MovieDetailDTO>()
+                .ForMember(x => x.Gender, options => options.MapFrom(MapMoviesGenders))
+                .ForMember(x => x.Actors, options => options.MapFrom(MapMoviesActors));
         }
+
+        private List<GenderDTO> MapMoviesGenders(Movie movie, MovieDetailDTO movieDetail)
+        {
+            var result = new List<GenderDTO>();
+            if (movie.MovieGenders is null) return result;
+            movie.MovieGenders.ForEach(genderMovie =>
+            {
+                result.Add(new () 
+                {
+                    Id = genderMovie.GenderId,
+                    Name = genderMovie.Gender.Name
+                });
+            });
+            return result;
+        }
+        private List<ActorDetailDTO> MapMoviesActors(Movie movie, MovieDetailDTO movieDetail)
+        {
+            var result = new List<ActorDetailDTO>();
+            if (movie.MoviesActors is null) return result;
+            movie.MoviesActors.ForEach(actorMovie =>
+            {
+                result.Add(new()
+                {
+                    ActorId = actorMovie.ActorId,
+                    Character = actorMovie.Character,
+                    Name = actorMovie.Actor.Name
+                });
+            });
+            return result;
+        }
+
 
         private List<MoviesGenders> MapMoviesGenders(MovieCreateDTO movieCreateDTO, Movie movie)
         {

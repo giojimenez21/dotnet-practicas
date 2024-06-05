@@ -13,9 +13,16 @@ namespace PeliculasAPI.Controllers
         private readonly IMovieService movieService = movieService;
 
         [HttpGet]  
-        public async Task<ActionResult<List<MovieDTO>>> GetAllMovies()
+        public async Task<ActionResult<MoviesIndexDTO>> GetAllMovies()
         {
             var movies = await movieService.GetAllMovies();
+            return Ok(movies);
+        }
+
+        [HttpGet("filter")]
+        public async Task<ActionResult<List<MovieDTO>>> Filter([FromQuery] FilterMovieDTO filter)
+        {
+            var movies = await movieService.Filter(filter);
             return Ok(movies);
         }
 

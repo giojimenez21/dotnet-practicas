@@ -6,6 +6,8 @@ using PeliculasAPI.Context;
 using PeliculasAPI.Dtos;
 using PeliculasAPI.Entities;
 using PeliculasAPI.Interfaces;
+using PeliculasAPI.Migrations;
+using System.Runtime.InteropServices;
 
 namespace PeliculasAPI.Services
 {
@@ -18,8 +20,6 @@ namespace PeliculasAPI.Services
         public async Task<MovieDTO> CreateMovie(MovieCreateDTO movieCreate)
         {
             var movie = mapper.Map<Movie>(movieCreate);
-            context.Add(movie);
-            await context.SaveChangesAsync();
             if (movieCreate.Picture is not null)
             {
                 using var memoryStream = new MemoryStream();
@@ -35,6 +35,10 @@ namespace PeliculasAPI.Services
                 };
                 movie.Picture = await fileService.SaveFile(fileToUpload);
             }
+            AssignOrderActors(movie);
+            context.Add(movie);
+            await context.SaveChangesAsync();
+            AssignOrderActors(movie);
             var movieDTO = mapper.Map<MovieDTO>(movieCreate);
             return movieDTO;
         }
@@ -46,16 +50,66 @@ namespace PeliculasAPI.Services
             await context.SaveChangesAsync();
         }
 
-        public async Task<List<MovieDTO>> GetAllMovies()
+        public async Task<List<MovieDTO>> Filter(FilterMovieDTO filter)
         {
-            var movies = await context.Movies.ToListAsync();
+            var moviesQueryable = context.Movies.AsQueryable();
+            if(!string.IsNullOrEmpty(filter.Title))
+            {
+                moviesQueryable = moviesQueryable.Where(movie => movie.Titulo.Contains(filter.Title));
+            }
+
+            if(filter.InCinemas)
+            {
+                moviesQueryable = moviesQueryable.Where(movie => movie.InCinema);
+            }
+
+            if(filter.NextReleases)
+            {
+                moviesQueryable = moviesQueryable.Where(movie => movie.DateRelease > DateTime.Today);
+            }
+
+            if(filter.GenderId != 0)
+            {
+                moviesQueryable = moviesQueryable
+                    .Where(movie => movie.MovieGenders.Select(mGender => mGender.GenderId)
+                    .Contains(filter.GenderId));
+            }
+
+            var movies = await moviesQueryable.ToListAsync();
             return mapper.Map<List<MovieDTO>>(movies);
+
+        }
+
+        public async Task<MoviesIndexDTO> GetAllMovies()
+        {
+            var nextReleases = await context.Movies
+                .Where(m => m.DateRelease > DateTime.Today)
+                .OrderBy(m => m.DateRelease)
+                .Take(5)
+                .ToListAsync();
+
+            var inCinemas = await context.Movies
+                .Where(m => m.InCinema)
+                .Take(5)
+                .ToListAsync();
+
+            var movies = await context.Movies.ToListAsync();
+            var result = new MoviesIndexDTO
+            {
+                InCinemas = mapper.Map<List<MovieDTO>>(inCinemas),
+                NextReleases = mapper.Map<List<MovieDTO>>(nextReleases),
+                Movies = mapper.Map<List<MovieDTO>>(movies)
+            };
+            return result;
         }
 
         public async Task<MovieDTO> GetMovieById(int id)
         {
-            var movie = await context.Movies.FirstOrDefaultAsync(m => m.Id == id);
-            return mapper.Map<MovieDTO>(movie);
+            var movie = await context.Movies
+                .Include(x => x.MoviesActors).ThenInclude(x => x.Actor)
+                .Include(x => x.MovieGenders).ThenInclude(x => x.Gender)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            return mapper.Map<MovieDetailDTO>(movie);
         }
 
         public async Task UpdateMovie(int id, MovieCreateDTO movieUpdateDTO)
@@ -79,6 +133,7 @@ namespace PeliculasAPI.Services
                 };
                 movieDTO.Picture = await fileService.EditFile(fileToUpload);
             }
+            AssignOrderActors(movieDB);
             context.Entry(movieDB).State = EntityState.Modified;
             await context.SaveChangesAsync();
         }
@@ -91,6 +146,17 @@ namespace PeliculasAPI.Services
             mapper.Map(moviePatch, movie);
             context.Entry(movie).State = EntityState.Modified;
             await context.SaveChangesAsync();
+        }
+
+        private void AssignOrderActors(Movie movie)
+        {
+            if(movie.MoviesActors is not null)
+            {
+                for (int i = 0; i < movie.MoviesActors.Count; i++)
+                {
+                    movie.MoviesActors[i].Order = i;
+                }
+            }
         }
     }
 }

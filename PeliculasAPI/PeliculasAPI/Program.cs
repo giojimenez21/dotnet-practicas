@@ -11,24 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddNewtonsoftJson();
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.MapType<List<ActorMovieCreateDTO>>(() =>
-    new OpenApiSchema
-    {
-        Type = "array",
-        Items =
-        new OpenApiSchema
-        {
-            Reference =
-            new OpenApiReference
-            {
-                Type = ReferenceType.Schema,
-                Id = "ActorMovieCreateDTO"
-            }
-        }
-    });
-});
+builder.Services.AddSwaggerGen();
 
 //Enable connection with SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
