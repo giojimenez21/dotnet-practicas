@@ -8,7 +8,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Text.Json.Serialization;
 using WebApiAutores;
-using WebApiAutores.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,10 +44,11 @@ builder.Services.AddSwaggerGen(options =>
                     Id = "Bearer"
                 }
             },
-            new string[]{}
+            Array.Empty<string>()
         }
     });
 });
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"))
 );
@@ -73,9 +73,6 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("EsAdmin", politic => politic.RequireClaim("esAdmin"));
 });
 
-builder.Services.AddDataProtection();
-builder.Services.AddTransient<HashService>();
-
 //Configura identity para poderlo usar con la base
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -90,14 +87,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-//Configuracion de sesion
-builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromSeconds(20000);
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
-});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
