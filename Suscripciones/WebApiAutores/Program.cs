@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Suscripciones.Middlewares;
+using Suscripciones.Services;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Text.Json.Serialization;
@@ -53,6 +55,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("defaultConnection"))
 );
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddScoped<LlavesService>();
 //Habilita la autenticacion por token
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(opt =>
@@ -105,5 +108,7 @@ app.MapControllers();
 app.UseSession();
 
 app.UseCors();
+
+app.UseLimitarPetiuciones();
 
 app.Run();

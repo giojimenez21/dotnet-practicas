@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Suscripciones.Entities;
 
 namespace WebApiAutores
 {
@@ -13,5 +14,7 @@ namespace WebApiAutores
         {
             base.OnModelCreating(modelBuilder);
         }
+        public DbSet<LlaveAPI> LlavesAPI { get; set; }
+        public DbSet<Peticion> Peticiones { get; set; }
     }
 }

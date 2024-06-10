@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|solutionrelative:webapiautores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\models\\credencialesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|solutionrelative:webapiautores\\models\\credencialesusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\middlewares\\limitarpeticionesmiddlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|solutionrelative:webapiautores\\middlewares\\limitarpeticionesmiddlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\models\\respuestaautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|solutionrelative:webapiautores\\models\\respuestaautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\dtos\\limitarpeticionesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|solutionrelative:webapiautores\\dtos\\limitarpeticionesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\WebApiAutores.csproj|solutionrelative:webapiautores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\controllers\\llavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|solutionrelative:webapiautores\\controllers\\llavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|solutionrelative:webapiautores\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{608CBAE2-8C3E-4186-B6CE-BBF01C209722}|WebApiAutores\\Suscripciones.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\suscripciones\\webapiautores\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,71 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CredencialesUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Models\\CredencialesUsuario.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\Models\\CredencialesUsuario.cs",
-              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Models\\CredencialesUsuario.cs",
-              "RelativeToolTip": "WebApiAutores\\Models\\CredencialesUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:13:16.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RespuestaAutenticacion.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Models\\RespuestaAutenticacion.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\Models\\RespuestaAutenticacion.cs",
-              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Models\\RespuestaAutenticacion.cs",
-              "RelativeToolTip": "WebApiAutores\\Models\\RespuestaAutenticacion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:13:08.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebApiAutores\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T06:10:23.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Program.cs",
               "RelativeDocumentMoniker": "WebApiAutores\\Program.cs",
               "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Program.cs",
               "RelativeToolTip": "WebApiAutores\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAFgAAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAG8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T04:49:36.456Z",
+              "WhenOpened": "2024-06-10T04:34:53.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CuentasController.cs",
-              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Controllers\\CuentasController.cs",
-              "RelativeDocumentMoniker": "WebApiAutores\\Controllers\\CuentasController.cs",
-              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Controllers\\CuentasController.cs",
-              "RelativeToolTip": "WebApiAutores\\Controllers\\CuentasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "DocumentIndex": 1,
+              "Title": "LimitarPeticionesMiddlewareExtension.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Middlewares\\LimitarPeticionesMiddlewareExtension.cs",
+              "RelativeDocumentMoniker": "WebApiAutores\\Middlewares\\LimitarPeticionesMiddlewareExtension.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Middlewares\\LimitarPeticionesMiddlewareExtension.cs",
+              "RelativeToolTip": "WebApiAutores\\Middlewares\\LimitarPeticionesMiddlewareExtension.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T04:40:22.576Z",
+              "WhenOpened": "2024-06-10T04:28:03.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LimitarPeticionesConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\DTOs\\LimitarPeticionesConfiguration.cs",
+              "RelativeDocumentMoniker": "WebApiAutores\\DTOs\\LimitarPeticionesConfiguration.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\DTOs\\LimitarPeticionesConfiguration.cs",
+              "RelativeToolTip": "WebApiAutores\\DTOs\\LimitarPeticionesConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:27:14.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApiAutores\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\appsettings.Development.json",
+              "RelativeToolTip": "WebApiAutores\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T04:26:31.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LlavesController.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Controllers\\LlavesController.cs",
+              "RelativeDocumentMoniker": "WebApiAutores\\Controllers\\LlavesController.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\Controllers\\LlavesController.cs",
+              "RelativeToolTip": "WebApiAutores\\Controllers\\LlavesController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:26:13.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApiAutores\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Suscripciones\\WebApiAutores\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApiAutores\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:24:58.399Z",
               "EditorCaption": ""
             }
           ]
