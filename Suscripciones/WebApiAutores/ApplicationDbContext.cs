@@ -16,5 +16,7 @@ namespace WebApiAutores
         }
         public DbSet<LlaveAPI> LlavesAPI { get; set; }
         public DbSet<Peticion> Peticiones { get; set; }
+        public DbSet<RestriccionDominio> RestriccionesDominio { get; set; }
+        public DbSet<RestriccionIP> RestriccionesIp { get; set; }
     }
 }
