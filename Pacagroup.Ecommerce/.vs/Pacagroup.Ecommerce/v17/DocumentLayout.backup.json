@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Pacagroup.Ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA37A123-4F13-4781-BEEE-BD132E84BFE3}|Paccagroup.Ecommerce.Transversal.Mapper\\Paccagroup.Ecommerce.Transversal.Mapper.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\pacagroup.ecommerce\\paccagroup.ecommerce.transversal.mapper\\mapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA37A123-4F13-4781-BEEE-BD132E84BFE3}|Paccagroup.Ecommerce.Transversal.Mapper\\Paccagroup.Ecommerce.Transversal.Mapper.csproj|solutionrelative:paccagroup.ecommerce.transversal.mapper\\mapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BBCEDD-12BF-4A48-BC7A-2117ACEE64A4}|Pacagroup.Ecommerce.Application.DTO\\Pacagroup.Ecommerce.Application.DTO.csproj|c:\\users\\gioji\\downloads\\codes\\dotnet-practicas\\pacagroup.ecommerce\\pacagroup.ecommerce.application.dto\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BBCEDD-12BF-4A48-BC7A-2117ACEE64A4}|Pacagroup.Ecommerce.Application.DTO\\Pacagroup.Ecommerce.Application.DTO.csproj|solutionrelative:pacagroup.ecommerce.application.dto\\customersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Pacagroup.Ecommerce\\Paccagroup.Ecommerce.Transversal.Mapper\\MapperProfiles.cs",
+              "RelativeDocumentMoniker": "Paccagroup.Ecommerce.Transversal.Mapper\\MapperProfiles.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Pacagroup.Ecommerce\\Paccagroup.Ecommerce.Transversal.Mapper\\MapperProfiles.cs",
+              "RelativeToolTip": "Paccagroup.Ecommerce.Transversal.Mapper\\MapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:08:44.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Pacagroup.Ecommerce\\Pacagroup.Ecommerce.Application.DTO\\CustomersDTO.cs",
+              "RelativeDocumentMoniker": "Pacagroup.Ecommerce.Application.DTO\\CustomersDTO.cs",
+              "ToolTip": "C:\\Users\\gioji\\Downloads\\codes\\dotnet-practicas\\Pacagroup.Ecommerce\\Pacagroup.Ecommerce.Application.DTO\\CustomersDTO.cs",
+              "RelativeToolTip": "Pacagroup.Ecommerce.Application.DTO\\CustomersDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:07:24.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
